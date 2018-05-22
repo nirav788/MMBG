@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.terapanth.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialThemeNew"
+        tools:replace="android:allowBackup">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.AboutTerapantActivity" />
+        <activity android:name=".activities.VisionMissionActivity" />
+        <activity android:name=".activities.MmbgHistoryActivity" />
+        <activity android:name=".activities.MmbgRulesActivity" />
+        <activity android:name=".activities.RulesDetailsActivity" />
+        <activity android:name=".activities.MmbgManagementActivity" />
+        <activity android:name=".activities.MmbgTeamActivity" />
+        <activity android:name=".activities.AbtypTeamActivity" />
+        <activity android:name=".activities.MahasabhaTeamActivity" />
+        <activity android:name=".activities.NewsActivity" />
+        <activity android:name=".activities.NewsDetailActivity" />
+        <activity android:name=".activities.PravachanActivity" />
+        <activity android:name=".activities.PravachanDetailActivity" />
+        <activity android:name=".activities.PrekshadhyanDetailActivity" />
+        <activity android:name=".activities.LetestNewsActivity" />
+        <activity android:name=".activities.PrekshadhyanListActivity" />
+        <activity android:name=".activities.LatestDetailActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.GalleryActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.terapanth.app.activities.RulesDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar" />
+
+        </LinearLayout>
+
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+
+                <com.terapanth.app.Utills.CustomTextView
+                    android:id="@+id/tv_title_rule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Title"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    app:typeface="psb.ttf" />
+
+
+                <com.terapanth.app.Utills.CustomTextView
+                    android:id="@+id/tv_details_rule"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Description"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/_12sdp"
+                    app:typeface="pm.ttf" />
+            </LinearLayout>
+
+        </android.support.v4.widget.NestedScrollView>
+        `
+    </LinearLayout>
+
+
+</LinearLayout>
+

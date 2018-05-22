@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Terapanth</string>
+    <string name="check_connection">No internet connection</string>
+    <string name="pleasewait">Please wait...</string>
+    <string name="server_connection_problem">Server Connection problem</string>
+    <string name="not_available">No Data Available</string>
+</resources>
