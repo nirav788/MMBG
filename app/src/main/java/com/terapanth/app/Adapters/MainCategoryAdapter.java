@@ -17,6 +17,7 @@ import com.terapanth.app.Models.MainCategory;
 import com.terapanth.app.R;
 import com.terapanth.app.activities.AboutTerapantActivity;
 import com.terapanth.app.activities.AbtypTeamActivity;
+import com.terapanth.app.activities.GalleryActivity;
 import com.terapanth.app.activities.LetestNewsActivity;
 import com.terapanth.app.activities.LoginActivity;
 import com.terapanth.app.activities.MahasabhaTeamActivity;
@@ -91,71 +92,70 @@ public class MainCategoryAdapter extends RecyclerView.Adapter<MainCategoryAdapte
                     activity.startActivity(intent);
 
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 1) {
+                } else if (position == 1) {
                     Intent intent = new Intent(mContext, VisionMissionActivity.class);
                     intent.putExtra("Vision", "Vision & Mission ");
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 2) {
+                } else if (position == 2) {
                     Intent intent = new Intent(mContext, MmbgHistoryActivity.class);
                     intent.putExtra("History", "MMBG History");
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                } if (position == 3) {
+                } else if (position == 3) {
                     Intent intent = new Intent(mContext, MmbgRulesActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }if (position == 4) {
+                } else if (position == 4) {
                     Intent intent = new Intent(mContext, MmbgTeamActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }if (position == 5) {
+                } else if (position == 5) {
                     Intent intent = new Intent(mContext, MmbgManagementActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }if (position == 6) {
+                } else if (position == 6) {
                     Intent intent = new Intent(mContext, MahasabhaTeamActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 7) {
+                } else if (position == 7) {
                     Intent intent = new Intent(mContext, AbtypTeamActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }if (position == 8) {
+                } else if (position == 8) {
                     Intent intent = new Intent(mContext, NewsActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 9) {
+                } else if (position == 9) {
                     Intent intent = new Intent(mContext, PravachanActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 10) {
+                } else if (position == 10) {
                     Intent intent = new Intent(mContext, LetestNewsActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }
-                if (position == 11) {
+                } else if (position == 11) {
                     Intent intent = new Intent(mContext, PrekshadhyanListActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
-                }if (position == 12) {
+                } else if (position == 12) {
                     Intent intent = new Intent(mContext, LoginActivity.class);
+                    Activity activity = (Activity) mContext;
+                    activity.startActivity(intent);
+                    activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);
+                } else if (position == 13) {
+                    Intent intent = new Intent(mContext, GalleryActivity.class);
                     Activity activity = (Activity) mContext;
                     activity.startActivity(intent);
                     activity.overridePendingTransition(R.anim.slide_from_right, R.anim.slide_to_left);

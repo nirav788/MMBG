@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 "Latest News",
                 "Prekshadhyan",
                 "Login",
+                "Gallery",
         };
         mainCategories = new ArrayList<>();
         for (int i = 0; i < title.length; i++) {

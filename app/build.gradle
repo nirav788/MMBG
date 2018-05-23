@@ -30,6 +30,7 @@ dependencies {
     implementation 'com.android.support:cardview-v7:26.1.0'
     implementation 'com.intuit.sdp:sdp-android:1.0.2'
     implementation project(':springylib')
+    implementation project(':bannerlib')
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.facebook.android:facebook-android-sdk:4.0.0'
     implementation 'com.makeramen:roundedimageview:2.3.0'

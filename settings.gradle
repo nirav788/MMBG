@@ -1,1 +1,1 @@
-include ':app', ':springylib'
+include ':app', ':springylib',':bannerlib'
